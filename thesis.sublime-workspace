@@ -1,0 +1,744 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"menu",
+				"menuDiagrams\tstatement"
+			],
+			[
+				"column",
+				"columnIntersectsSelection"
+			],
+			[
+				"high",
+				"isHighlighted"
+			],
+			[
+				"nrOf",
+				"nrOfEffects"
+			],
+			[
+				"work",
+				"work_package_factory\tfunction"
+			],
+			[
+				"Meas",
+				"MeasureFactory\tclass"
+			],
+			[
+				"sqlalchem",
+				"SQLAlchemyModelFactory\tclass"
+			],
+			[
+				"process",
+				"processEvents\tfunction"
+			],
+			[
+				"text",
+				"Text\tinstance"
+			],
+			[
+				"Backgrou",
+				"BackgroundColorRole\tinstance"
+			],
+			[
+				"import",
+				"importColumnSelectionView\tmodule"
+			],
+			[
+				"actionshow",
+				"actionShowRunningHours"
+			],
+			[
+				"bAdd",
+				"btAddAsset\tstatement"
+			],
+			[
+				"showC",
+				"actionShowCases"
+			],
+			[
+				"update",
+				"updateGeometry"
+			],
+			[
+				"connector",
+				"connectorIn"
+			],
+			[
+				"preview",
+				"previewClicked"
+			],
+			[
+				"SERi",
+				"SeriesBlockGroup\tmodule"
+			],
+			[
+				"MooN",
+				"MooNParallelBlockGroup\tmodule"
+			],
+			[
+				"Moon",
+				"MooNParallelNodeGroup\tclass"
+			],
+			[
+				"moon",
+				"MooNParallelNodeGroup\tclass"
+			],
+			[
+				"parallel",
+				"ParallelNodeGroup\tclass"
+			],
+			[
+				"devic",
+				"DeviceCoordinateCache\tinstance"
+			],
+			[
+				"RBDG",
+				"RBD_GraphicsView\tstatement"
+			],
+			[
+				"label",
+				"LABEL_MPBG\tstatement"
+			],
+			[
+				"Parallel",
+				"ParallelBlockGroup\tmodule"
+			],
+			[
+				"RDB",
+				"RBDBorderColors\tclass"
+			],
+			[
+				"insertAction",
+				"insertInitialGroupAction\tstatement"
+			],
+			[
+				"rbd",
+				"rbdGraphicsView"
+			],
+			[
+				"actionBorder",
+				"actionBorderParallel\tstatement"
+			],
+			[
+				"clear",
+				"clearActionMenu\tfunction"
+			],
+			[
+				"RBD",
+				"RBDBorderColors\tclass"
+			],
+			[
+				"gra",
+				"RBD_GraphicsView"
+			],
+			[
+				"Parll",
+				"ParallelBlockGroup"
+			],
+			[
+				"sqlalch",
+				"sqlalchemy_session"
+			],
+			[
+				"Nr",
+				"nrOfEffects"
+			],
+			[
+				"sql",
+				"SQLAlchemyModelFactory\tclass"
+			],
+			[
+				"iter",
+				"intervalType"
+			],
+			[
+				"paralll",
+				"parallelBlockGroup"
+			],
+			[
+				"prallel",
+				"parallelBlockGroup\tfunction"
+			],
+			[
+				"calcu",
+				"calculateReliability"
+			],
+			[
+				"series",
+				"seriesBlockGroup\tparam"
+			],
+			[
+				"batch",
+				"batch_alter_table"
+			],
+			[
+				"paral",
+				"parallelBlockGroup\tfunction"
+			],
+			[
+				"serial",
+				"serialBlockGroup\tfunction"
+			],
+			[
+				"para",
+				"parallelBlockGroup\tparam"
+			],
+			[
+				"contain",
+				"containedBG\tstatement"
+			],
+			[
+				"effect",
+				"effect\tforstmt"
+			],
+			[
+				"drop",
+				"drop_column"
+			],
+			[
+				"batch_",
+				"batch_op\twithstmt"
+			],
+			[
+				"asset",
+				"assetHierarchyId"
+			],
+			[
+				"loadMeasures",
+				"loadMeasuresLeft\tfunction"
+			],
+			[
+				"QTreeWI",
+				"QTreeWidgetItem\tclass"
+			],
+			[
+				"Hi",
+				"assetHierarchyId"
+			],
+			[
+				"Fail",
+				"FailureMode"
+			],
+			[
+				"declar",
+				"declarative_base\timport"
+			],
+			[
+				"accepted",
+				"acceptedExtensions\tstatement"
+			],
+			[
+				"component",
+				"componentHierarchy\tstatement"
+			],
+			[
+				"hierarchy",
+				"componentHierarchy"
+			],
+			[
+				"fail",
+				"failureMode"
+			],
+			[
+				"mat",
+				"materialSubgroup"
+			],
+			[
+				"next",
+				"NextPageTemplate\tclass"
+			],
+			[
+				"_generate",
+				"_generateReportFDTree\tfunction"
+			],
+			[
+				"setMi",
+				"setMinimumHeight"
+			],
+			[
+				"self",
+				"self"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"iterat",
+				"MAX_ITERATIONS"
+			],
+			[
+				"PRO",
+				"USE_PROBABILISTIC"
+			],
+			[
+				"valid",
+				"possibleValidStates"
+			],
+			[
+				"possible",
+				"possibleValidStates"
+			],
+			[
+				"total",
+				"TOTAL_NODES"
+			],
+			[
+				"i",
+				"i"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/Ant.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"RiskAnalyzer",
+					""
+				],
+				[
+					"RiskAnalyzer",
+					"RiskAnalyzer - tests"
+				]
+			],
+			[
+				"RiskAnalyzer",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 76.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"next lint",
+				"Anaconda: Next lint error"
+			],
+			[
+				"lint",
+				"Anaconda: Previous lint error"
+			],
+			[
+				"anaconda l",
+				"Anaconda: Next lint error"
+			],
+			[
+				"virtualenv",
+				"Virtualenv: Activate"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: __magic__"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Configuration"
+			],
+			[
+				"test",
+				"Anaconda: Run Current File Tests"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 479.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/tung/git/thesis/doc"
+	],
+	"file_history":
+	[
+		"/home/tung/git/thesis/doc/README.txt",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/measureView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/widgetFMECA.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/rbdNodes.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/alembic/env.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/util/custom.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/conftest.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_riskCalculation.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_measure.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_risk.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/alembic/versions/09ee6fed54ac_measure_risk_now_has_a_many_to_many_.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/alembic/versions/b7bb265b13b3_added_job_id_department_added_.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/db.py",
+		"/home/tung/git/riskanalysistool/env/lib/python3.6/site-packages/sqlalchemy/sql/naming.py",
+		"/home/tung/git/riskanalysistool/requirements.txt",
+		"/home/tung/git/riskanalysistool/riskanalyzer/alembic/versions/8cdc67301ba2_added_maintenance_time_to_measure.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/alembic/versions/585c0f4f9954_many_to_many_relation_blockgroup_block.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/alembic/versions/d103cd9f3b6d_add_mission_time_to_case.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/alembic/versions/c7ab47328258_measure_risk_now_has_a_many_to_many_.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/rbdGraphicsView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/openRBDView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/gateways.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/mainView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/connectors.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/rbdNodes.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/editPane.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/editMooNParallel.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/rbdGraphicsScene.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/rbdGraphicsView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/rbdGraphicsScene.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/initialGroupView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/selectBlockView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/mainView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/selectBlockView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/showErrorBlock.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/controller/excelHandler.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/showParallelGroup.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/showRBDBlock.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/showSeriesGroup.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/showRiskBlock.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/runningHoursView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/caseView.py",
+		"/home/tung/logview-0.1/logview.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/info.log",
+		"/home/tung/git/riskanalysistool/riskanalyzer/model/model.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/showParallelGroup.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/showSeriesGroup.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/editMooNParallel.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/showErrorBlock.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/rbdGateways.py",
+		"/home/tung/Downloads/errors.log",
+		"/home/tung/Downloads/info.log",
+		"/home/tung/git/riskanalysistool/info.log",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/__init__.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/sparePartView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/customTreeWidget.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/rbdWindow.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/controller/util.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/openRBDView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/newRBDView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/reportView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBDConstants.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/scenarioView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/riskView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/riskMatrixView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/riskanalyzer.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/assetView.py",
+		"/home/tung/logview-0.1/listeners.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/case.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/errorBox.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/showRBDBlock.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/showRiskBlock.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/setup.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/logging.json",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/progressDialog.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/messageBox.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/case/editCaseView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/case/caseView.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/custom/custom.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/doubleSpinBox.py",
+		"/home/tung/Downloads/Contents-amd64 (1)",
+		"/home/tung/git/riskanalysistool/circle2.yml",
+		"/home/tung/git/riskanalysistool/circle.yml",
+		"/home/tung/git/riskanalysistool/.circleci/config.yml",
+		"/home/tung/.cache/.fr-PM1BMq/Packages",
+		"/home/tung/Downloads/Packages",
+		"/home/tung/Downloads/Contents-amd64",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/rbdConnectors.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/otherViews.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/model/fdTreeModel.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/controller/multithread.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/controller/controller.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/controller/reportGenerator.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/img/icons_rc.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/img/icons.qrc",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_scenario.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_risk_matrix.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_rbd.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_case.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_asset.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/__init__.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/model/__init__.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/controller/profiler.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/controller/__init__.py",
+		"/home/tung/git/riskanalysistool/errors.log",
+		"/home/tung/git/riskanalysistool/debug.log",
+		"/home/tung/git/riskanalysistool/riskanalysistool.sublime-project",
+		"/home/tung/.config/sublime-text-3/Packages/Virtualenv/Virtualenv.sublime-settings",
+		"/home/tung/git/riskanalysistool/scripts/qt2py.sh",
+		"/home/tung/.cache/.fr-sWayL8/convert-ui-files-and-compile-resource-files.xml",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_models.py",
+		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_riskmatrix.py",
+		"/home/tung/.cache/.fr-5CzkrK/pycharm_file_watcher_process_ui_module.py",
+		"/home/tung/.cache/.fr-g7NUZW/process_ui_module.py",
+		"/home/tung/.cache/.fr-NKY8N4/pycharm_file_watcher_process_ui_module.py",
+		"/home/tung/.cache/.fr-IcxWWS/pycharm-2017.3.4/Install-Linux-tar.txt",
+		"/home/tung/git/riskanalysistool/riskanalyzer/errors.log",
+		"/home/tung/git/riskanalysistool/riskanalyzer/error.log",
+		"/home/tung/git/riskanalysistool/riskanalyzer/logging.config",
+		"/home/tung/git/riskanalysistool/riskanalyzer/simple.log",
+		"/home/tung/git/dejavu/dejavu/fingerprint.py",
+		"/home/tung/git/dejavu/results/dejavu-test.log",
+		"/home/tung/Downloads/error (2).log",
+		"/home/tung/Downloads/error (1).log",
+		"/home/tung/git/dejavu/test_dejavu.sh",
+		"/home/tung/git/dejavu/dejavu/testing.py",
+		"/home/tung/git/dejavu/run_tests.py",
+		"/home/tung/git/dejavu/dejavu/recognize.py"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 283.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 106.0
+	},
+	"pinned_build_system": "RiskAnalyzer",
+	"project": "thesis.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ohervi",
+				"riskanalyzer/view/otherViews.py"
+			],
+			[
+				"widget",
+				"riskanalyzer/view/widgetFMECA.py"
+			],
+			[
+				"excelhandl",
+				"riskanalyzer/controller/excelHandler.py"
+			],
+			[
+				"test_measu",
+				"riskanalyzer/test/test_measure.py"
+			],
+			[
+				"test_risk",
+				"riskanalyzer/test/test_risk.py"
+			],
+			[
+				"",
+				"~/Dropbox/TU Delft/Master/Machine Learning/2015-2016/Final/example"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/git/riskanalysistool/riskanalysistool.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 713.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 354.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
