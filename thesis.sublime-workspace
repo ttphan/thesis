@@ -295,8 +295,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/tung/git/thesis/code/pipeline.py",
+			"settings":
+			{
+				"buffer_size": 4475,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "class Singleton(type):\n    _instances = {}\n\n    def __call__(cls, *args, **kwargs):\n        if cls not in cls._instances:\n            cls._instances[cls] = super(\n                Singleton, cls).__call__(*args, **kwargs)\n        return cls._instances[cls]\n\n\n# class Indexer(metaclass=Singleton):\n    \n#     def __init__(self):\n        \n",
+			"file": "/home/tung/git/thesis/code/utils.py",
+			"file_size": 332,
+			"file_write_time": 131872870195797651,
+			"settings":
+			{
+				"buffer_size": 336,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/tung/git/thesis/code/transformers.py",
+			"settings":
+			{
+				"buffer_size": 1951,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -333,6 +363,54 @@
 			[
 				"Packages/Java/Ant.sublime-build",
 				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"XeLaTeX"
 			]
 		],
 		[
@@ -376,6 +454,42 @@
 		"selected_items":
 		[
 			[
+				"hermes",
+				"Hermes: Start Kernel"
+			],
+			[
+				"herm",
+				"Hermes: List Kernels"
+			],
+			[
+				"hermes kernel",
+				"Hermes: List Kernels"
+			],
+			[
+				"cell",
+				"Hermes: Execute Cell"
+			],
+			[
+				"move",
+				"Hermes: Execute Cell and Move"
+			],
+			[
+				"cel",
+				"Hermes: Execute Cell"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
 				"next lint",
 				"Anaconda: Next lint error"
 			],
@@ -392,10 +506,6 @@
 				"Virtualenv: Activate"
 			],
 			[
-				"install pack",
-				"Package Control: Install Package"
-			],
-			[
 				"Snippet: ",
 				"Snippet: __magic__"
 			],
@@ -406,10 +516,6 @@
 			[
 				"test",
 				"Anaconda: Run Current File Tests"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"list",
@@ -448,11 +554,63 @@
 	},
 	"expanded_folders":
 	[
-		"/home/tung/git/thesis/doc"
+		"/home/tung/git/thesis",
+		"/home/tung/git/thesis/code"
 	],
 	"file_history":
 	[
+		"/home/tung/git/thesis/pipelineOLD.py",
+		"/home/tung/git/thesis/pipeline.ipynb",
+		"/home/tung/git/riskanalysistool/riskanalyzer/riskanalyzer.py",
+		"/home/tung/git/thesis/code/.gitignore",
+		"/home/tung/git/riskanalysistool/riskanalyzer/data/.gitignore",
+		"/home/tung/git/thesis/dejavu/.gitignore",
+		"/home/tung/git/thesis/code/result.txt",
+		"/home/tung/git/thesis/code/test",
+		"/home/tung/git/thesis/code/mycache.pickle",
+		"/home/tung/git/thesis/result.txt",
+		"/home/tung/git/thesis/pipeline.py",
+		"/home/tung/git/thesis/fastdtw.py",
+		"/home/tung/.config/sublime-text-3/Packages/User/Hermes.sublime-settings",
+		"/home/tung/git/thesis/doc/report.tex",
+		"/home/tung/git/thesis/doc/chapters/related-works.tex",
+		"/home/tung/git/thesis/doc/report.pdf",
+		"/home/tung/git/thesis/data/raw-data/essentia-results/b002705.mp3.txt",
+		"/home/tung/git/thesis/data/raw-data/essentia-results/a000019.mp3.txt",
+		"/home/tung/git/thesis/data/raw-data/essentia-results/a000002.mp3.txt",
+		"/home/tung/git/thesis/essentia/batch_extractor.sh",
+		"/home/tung/git/thesis/essentia/README.rst",
+		"/home/tung/git/thesis/doc/chapters/approach.tex",
+		"/home/tung/compactness",
+		"/home/tung/git/thesis/data/raw-data/essentia-results/a000002 (copy).mp3.txt",
+		"/home/tung/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/tung/git/thesis/doc/title.tex",
+		"/home/tung/git/thesis/doc/thesis.sublime-project",
+		"/home/tung/git/riskanalysistool/scripts/qt2py.sh",
+		"/home/tung/git/thesis/data/raw-data/clips/test/essentia-results/a000015.mp3.txt",
+		"/home/tung/git/thesis/data/raw-data/clips/test/essentia-results/a000002.mp3.txt",
+		"/home/tung/git/thesis/data/raw-data/clips/test/qt2py.sh",
+		"/home/tung/git/thesis/essentia/output",
+		"/home/tung/git/thesis/data/raw-data/metadata.txt",
+		"/home/tung/git/thesis/data/raw-data/metadata.csv",
+		"/home/tung/git/thesis/doc/chapters/introduction.tex",
+		"/home/tung/git/thesis/doc/.gitignore",
+		"/home/tung/git/thesis/doc/cover.pdf",
+		"/home/tung/git/thesis/doc/tudelft-report.cls",
+		"/home/tung/git/thesis/doc/chapters/discussion.tex",
+		"/home/tung/git/thesis/doc/conclusion.tex",
+		"/home/tung/git/thesis/doc/results.tex",
+		"/home/tung/git/thesis/doc/implementation.tex",
+		"/home/tung/git/thesis/doc/approach.tex",
+		"/home/tung/git/thesis/doc/related-works.tex",
+		"/home/tung/git/thesis/doc/introduction.tex",
+		"/home/tung/git/thesis/doc/preface.tex",
+		"/home/tung/git/thesis/doc/Latex vraag.tex",
+		"/home/tung/git/thesis/doc/cover.tex",
 		"/home/tung/git/thesis/doc/README.txt",
+		"/home/tung/git/thesis/doc/dissertation.cls",
+		"/home/tung/git/thesis/doc/dissertation.tex",
+		"/home/tung/git/thesis/doc/title/title.tex",
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/measureView.py",
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/widgetFMECA.py",
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/RBD/rbdNodes.py",
@@ -517,7 +675,6 @@
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/scenarioView.py",
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/riskView.py",
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/riskMatrixView.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/riskanalyzer.py",
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/assetView.py",
 		"/home/tung/logview-0.1/listeners.py",
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/case.py",
@@ -529,57 +686,7 @@
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/progressDialog.py",
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/messageBox.py",
 		"/home/tung/git/riskanalysistool/riskanalyzer/view/case/editCaseView.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/view/case/caseView.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/view/custom/custom.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/view/doubleSpinBox.py",
-		"/home/tung/Downloads/Contents-amd64 (1)",
-		"/home/tung/git/riskanalysistool/circle2.yml",
-		"/home/tung/git/riskanalysistool/circle.yml",
-		"/home/tung/git/riskanalysistool/.circleci/config.yml",
-		"/home/tung/.cache/.fr-PM1BMq/Packages",
-		"/home/tung/Downloads/Packages",
-		"/home/tung/Downloads/Contents-amd64",
-		"/home/tung/git/riskanalysistool/riskanalyzer/view/rbdConnectors.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/view/otherViews.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/model/fdTreeModel.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/controller/multithread.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/controller/controller.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/controller/reportGenerator.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/img/icons_rc.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/img/icons.qrc",
-		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_scenario.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_risk_matrix.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_rbd.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_case.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_asset.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/test/__init__.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/model/__init__.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/controller/profiler.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/controller/__init__.py",
-		"/home/tung/git/riskanalysistool/errors.log",
-		"/home/tung/git/riskanalysistool/debug.log",
-		"/home/tung/git/riskanalysistool/riskanalysistool.sublime-project",
-		"/home/tung/.config/sublime-text-3/Packages/Virtualenv/Virtualenv.sublime-settings",
-		"/home/tung/git/riskanalysistool/scripts/qt2py.sh",
-		"/home/tung/.cache/.fr-sWayL8/convert-ui-files-and-compile-resource-files.xml",
-		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_models.py",
-		"/home/tung/git/riskanalysistool/riskanalyzer/test/test_riskmatrix.py",
-		"/home/tung/.cache/.fr-5CzkrK/pycharm_file_watcher_process_ui_module.py",
-		"/home/tung/.cache/.fr-g7NUZW/process_ui_module.py",
-		"/home/tung/.cache/.fr-NKY8N4/pycharm_file_watcher_process_ui_module.py",
-		"/home/tung/.cache/.fr-IcxWWS/pycharm-2017.3.4/Install-Linux-tar.txt",
-		"/home/tung/git/riskanalysistool/riskanalyzer/errors.log",
-		"/home/tung/git/riskanalysistool/riskanalyzer/error.log",
-		"/home/tung/git/riskanalysistool/riskanalyzer/logging.config",
-		"/home/tung/git/riskanalysistool/riskanalyzer/simple.log",
-		"/home/tung/git/dejavu/dejavu/fingerprint.py",
-		"/home/tung/git/dejavu/results/dejavu-test.log",
-		"/home/tung/Downloads/error (2).log",
-		"/home/tung/Downloads/error (1).log",
-		"/home/tung/git/dejavu/test_dejavu.sh",
-		"/home/tung/git/dejavu/dejavu/testing.py",
-		"/home/tung/git/dejavu/run_tests.py",
-		"/home/tung/git/dejavu/dejavu/recognize.py"
+		"/home/tung/git/riskanalysistool/riskanalyzer/view/case/caseView.py"
 	],
 	"find":
 	{
@@ -597,6 +704,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"int(args['parameter'])",
+			"basepath",
+			"cluster",
+			"\"",
+			"series",
+			"df",
+			"level",
+			"high",
+			"na",
+			"major",
+			"]",
+			"similar",
+			"pdf",
+			"title",
+			"print"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -614,8 +736,164 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/tung/git/thesis/code/pipeline.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2931,
+								2931
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": "\\",
+									"selector": "text.tex.latex"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 30.0,
+						"translation.y": 1386.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/tung/git/thesis/code/utils.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": "\\",
+									"selector": "text.tex.latex"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"auto_name": "",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/home/tung/git/thesis/code/transformers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1121,
+								1121
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": "\\",
+									"selector": "text.tex.latex"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -636,11 +914,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.483935983398,
 			1.0
 		],
 		"rows":
@@ -658,6 +943,10 @@
 	{
 		"height": 0.0
 	},
+	"output.latextools":
+	{
+		"height": 136.0
+	},
 	"output.mdpopups":
 	{
 		"height": 0.0
@@ -666,7 +955,7 @@
 	{
 		"height": 106.0
 	},
-	"pinned_build_system": "RiskAnalyzer",
+	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"project": "thesis.sublime-project",
 	"replace":
 	{
@@ -735,7 +1024,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 354.0,
 	"status_bar_visible": true,
 	"template_settings":

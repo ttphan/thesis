@@ -1,1 +1,54 @@
 \chapter{Approach}
+
+\section{Research question}
+
+How can we obtain a compact representation of music without losing musical semantics?
+
+\subsection{Subquestions}
+
+\begin{itemize}
+	\item{How do we define \textbf{compactness}?}
+	\item{What are \textbf{musical semantics} (in our context)?}
+	\item{What are commonly used music \textbf{representations?}}
+	\item{How does \textbf{learned} feature representations perform compared to \textbf{designed} representations?}
+\end{itemize}
+
+\subsubsection{How do we define compactness?}
+Compactness can be determined using 2 factors:
+
+\begin{itemize}
+	\item{Dimension}
+	\item{Sparsity}
+	\item{Cardinality/Possibility/Entropy}
+	\begin{itemize}
+		\item{VAE (Variational AutoEncoder)}
+	\end{itemize}
+\end{itemize}
+
+Representation can be either dense (tightly packed, low dimension) or sparse (high dimension, a lot of zeros). \\
+
+"A compact code is defined to be one in which the redundancy contained in the input data is removed by representing the data in fewer dimensions (...) A sparse distributed code, on the other hand, retains (or perhaps even increases) the dimensionality of the representation, but uses the redundancy by ensuring that in any individual code only a few dimensions of the channel are used at any one time." (Fyfe, 1995) \\
+
+"The ratio of the number of points in the pattern to the total number of points in the dataset that occur within the region spanned by the pattern
+		within a particular representation" (Meredith et al., 2003, p. 8)
+
+\subsection{Datasets}
+
+To validate the methods on similarity, the MIREX AMS datasets from the years 2007 to 2014 are used (sans 2008, as those results are missing).
+\\\\
+The datasets uses 2 scoring systems:
+
+\begin{itemize}
+	\item{Broad (categorical)} 
+	\begin{itemize}
+		\item{Not Similar (NS)}
+		\item{Somewhat Similar (SS)}
+		\item{Very Similar (VS)}
+	\end{itemize}
+	\item{Fine (numeric)}
+	\begin{itemize}
+		\item{0.0 to 10.0}
+		\item{0 to 100}
+	\end{itemize}
+\end{itemize}
+Worth mentioning is that the fine scoring system has a round number bias in the case of a 0.0 to 10.0 system and a bias towards multiples of 10 in a 0 to 100 system. On top of that, there is also a 0-bias, as evaluators tend to score a query as 0 when the songs are not similar.
