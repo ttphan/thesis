@@ -1,68 +1,32 @@
 \chapter{Introduction}
 
-Ever since the introduction of media on the internet, the amount that is available to the public has grown significantly. Music streaming options make it possible to listen to millions of songs and their catalogues are increasing rapidly. But this huge catalogue is in dire need of a way of processing it in a reasonable amount of time if they ever want to offer a decent service. For example, in 2019 Spotify alone offers more than 50 million songs.\footnote{https://investors.spotify.com/} When we assume that each song has a duration of 3 minutes, this roughly equals to more than 285 years worth of music if played back-to-back, or around 1.44 PB when stored as a .WAV file. 
+Ever since the introduction of media on the internet, the amount available to the public has grown significantly. Music streaming options make it possible to listen to millions of songs, and their catalogues are increasing rapidly. This increase forces them to find a way of processing them in a reasonable amount of time if they ever want to offer a decent service. In 2019, Spotify alone offers more than 50 million songs.\footnote{https://investors.spotify.com/} When we assume that each song has a duration of 3 minutes, this roughly equals to over 285 years of music.
 
-But not just streaming services need to be able to process this data, as researchers also need a way to tackle this huge amount of data. They rely heavily on the labels and annotations of the songs, but labelling them by hand is a very laborious task. Advances in the machine learning field make it possible to do this automatically, but with the ever increasing amount of music, every bit of speed up is a welcome change.
+But not just streaming services need to be able to process this data, as researchers also need a way to tackle this huge amount of data. They rely heavily on the labels and annotations of the songs, but labelling them by hand is a very laborious task. Advances in the machine learning field make it possible to do this automatically, but with the ever increasing amount of music, every bit of speed up is appreciated.
 
 Music Information Retrieval (MIR) is a field that focuses on the processing of said data and one of the ways to do so is creating an efficient representation of music. But making an compact and efficient representation almost always means compressing and thus losing data. The trick here is to keep the information that is defining for that particular song.
 
-There are already a multitude of representations available for music, either engineered by hand using domain knowledge or learned using machine learning techniques. 
+There are already a multitude of representations available for music, either with features engineered by hand using domain knowledge or learned using machine learning techniques.
 
-One of the hand crafted representations is audio fingerprinting and as the name suggests, the representation can be seen as a `fingerprint', or a minimal summary, of a song. This is perfect for identification and quick lookup of a particular song, but it ends up throwing away a lot of other information, meaning that its application is narrowed down significantly. One can determine of two songs are the same by comparing the fingerprints, but one lost the ability to determine, for example, the tempo, key, energy, etc. of the song.
+One of the hand crafted representations is audio fingerprinting and as the name suggests, the representation can be seen as a `fingerprint', or a minimal summary, of a song. This is perfect for identification and quick lookup of a particular song, but it ends up throwing away a lot of other information, meaning that its application is narrowed down significantly. We can determine if two songs are the same by comparing the fingerprints, but simultaneously lost the ability to determine the musical properties (tempo, key, energy, etc.) of the song.
 
-An example of a learned representation is one suggested in \cite{Dieleman2014}, where they compare learning features using raw audio as direct input to using spectrograms. By using a Convolutional Neural Network (CNN), they try and predict the tags associated with the song. Though promising, they couldn't match the performance of the spectrogram-based approach yet. Even though end-to-end learning is still incredibly hard to achieve a high level of performance with, the biggest advantage is that we don't lose the properties mentioned in the fingerprinting section.
+An example of a learned representation is one suggested by Dieleman et al. \cite{Dieleman2014}, where they compare learning features using raw audio as direct input (end-to-end learning) to using spectrograms. By using a Convolutional Neural Network (CNN), they try and predict the tags associated with the song. Though promising, they couldn't match the performance of the spectrogram-based approach yet. Even though end-to-end learning is still incredibly hard to achieve a high level of performance with, the biggest advantage is that we don't lose the musical properties mentioned previously.
 
-These properties can be grouped under an umbrella term called \textbf{musical attributes} and we want to find a balance in a compact representation, while also keeping as much information about these musical attributes as possible. Specializing too much in a specific task and throwing away musical attributes may be the most compact representation, but applying it to a different task proves to be difficult. On the other hand, end-to-end learning retains almost all the information on the musical attributes, but requires the (samples of) the songs in its totality. To find a middle ground in this, we propose the following research question:
+These properties can be grouped under the umbrella term called \textbf{musical attributes} and we want to find a balance in a compact representation, while also keeping as much information about these musical attributes as possible. Specializing too much in a specific task and throwing away musical attributes may be the most compact representation, but applying it to a different task proves to be difficult. On the other hand, end-to-end learning retains almost all the information on the musical attributes, but requires the (samples of) the songs in its raw form. 
 
+\textbf{Compactness} could be interpreted traditionally, where redundancy is removed to achieve a smaller size and thus resulting in a lower dimension. But another form of compactness is sparsity, where the dimensionality could even increase, but most of the entries are zero and only a few dimensions are used at most, resulting in a more efficient method of working with the data which speeds up the computation significantly \cite{Fyfe1995}.
 
-\section{Research question}
-
-How can we obtain a \textbf{compact} \textbf{representation} of music without losing information about its \textbf{musical attributes}?
-
-To effectively answer this question, we ask ourself the following sub-questions:
-
-\subsection{Sub-questions}
+To find a middle ground in this, we propose the following research question:
 
 \begin{itemize}
-	\item{How do we define \textbf{compactness}?}
-	\item{What are commonly used music \textbf{representations?}}
-	\item{How does \textbf{learned} feature representations perform compared to \textbf{designed} representations? \textbf{(Maybe cut this?)}}
+	\item{How can we obtain a \textbf{compact} \textbf{representation} of music without losing information about its \textbf{musical attributes}?}
 \end{itemize}
 
-By defining the compactness of a representation, it gives us a good metric to compare different representations with. Identifying commonly used music representations used in the industry allows us to establish our baseline.
+
+As for the scientific contribution by answering this question, it offers an alternative representation for music where speed and compactness is key, with respect to the musical attributes of the songs. While doing so, it also provides a middle ground to either throwing away all musical attributes and working with raw music as direct input, allowing it to be used in more general settings.
 
 
-As for the scientific contribution by answering these questions, it offers an alternative representation for music where speed and compactness is key, with respect to the musical attributes of the songs. While doing so, it also provides a middle ground to either throwing away all musical attributes and working with raw music as direct input, allowing it to be used in more general settings.
 
-
-\begin{itemize}
-	\item{What is the direct result of answering these research questions?}
-	\item{How are we going to answer these questions? (rough experiment setup?}
-	\item{What will the scientific contribution of answering these questions be?}
-	\item{Thesis paper overview}
-\end{itemize}
-
-\subsubsection{How do we define compactness?}
-Compactness can be determined using 3 factors:
-
-\begin{itemize}
-	\item{Dimension}
-	\item{Sparsity}
-	\item{Cardinality/Possibility/Entropy}
-	\begin{itemize}
-		\item{VAE (Variational AutoEncoder)}
-	\end{itemize}
-\end{itemize}
-
-https://ifpi.org/news/IFPI-GLOBAL-MUSIC-REPORT-2019
-https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4472077
-
-Representation can be either dense (tightly packed, low dimension) or sparse (high dimension, a lot of zeros). \\
-
-"A compact code is defined to be one in which the redundancy contained in the input data is removed by representing the data in fewer dimensions (...) A sparse distributed code, on the other hand, retains (or perhaps even increases) the dimensionality of the representation, but uses the redundancy by ensuring that in any individual code only a few dimensions of the channel are used at any one time." (Fyfe, 1995) \\
-
-"The ratio of the number of points in the pattern to the total number of points in the dataset that occur within the region spanned by the pattern
-		within a particular representation" (Meredith et al., 2003, p. 8
 
 
 \newpage
